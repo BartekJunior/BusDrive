@@ -791,7 +791,6 @@ section {
 
 .services .card p {
   padding: 0 30px;
-  margin-bottom: 30px;
   color: var(--color-secondary);
   font-size: 15px;
 }
@@ -893,6 +892,67 @@ section {
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
+/* MINE */
+.car-description {
+  margin-bottom: 0;
+}
+
+.car-info {
+  padding-left: 30px;
+}
+
+.car-info ul {
+  padding: 20px 0;
+  list-style: none;
+  color: #6c757d;
+  text-align: left;
+  line-height: 20px;
+}
+
+.car-info ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.car-info ul i {
+  color: #059652;
+  font-size: 24px;
+  padding-right: 3px;
+}
+
+.car-info .buy-btn {
+  display: block;
+  padding: 12px 35px;
+  border-radius: 4px;
+  color: var(--color-primary);
+  transition: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--font-primary);
+  transition: 0.3s;
+  border: 1px solid var(--color-primary);
+}
+
+.car-info .buy-btn:hover {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+/* MINE */
+
+
+
+
+.pricing-item {
+  padding: 60px 40px;
+  box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
+  background: #fff;
+  height: 100%;
+  border-top: 4px solid #fff;
+  border-radius: 5px;
+}
+
 .pricing .pricing-item {
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
