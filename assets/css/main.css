@@ -985,6 +985,7 @@ section {
 
 .hero-img {
   border-radius: 20px;
+  filter: brightness(85%);
 }
 
 /* MINE */
