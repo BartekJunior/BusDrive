@@ -948,15 +948,16 @@ section {
 /* ---------------------------- */
 .phone-div {
   min-height: 80px;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .phone-itself {
-  display: block;
-  margin-bottom: 15px;
+  display: inline-block;
+  width: 49%;
+  margin: 25px auto;
   text-align: center;
   font-weight: 700;
   cursor: pointer;
@@ -966,7 +967,7 @@ section {
   background-color: var(--color-secondary);
   color: #fff;
   border-radius: 10px;
-  padding: 10px;
+  /* padding: 5px; */
 }
 
 .phone-img-div {
@@ -1117,6 +1118,11 @@ section {
   .pricing .box {
     max-width: 100%;
     margin: 0 auto 30px auto;
+  }
+  .phone-itself {
+    display: block;
+    width: 80%;
+    text-align: center;
   }
 }
 
@@ -1660,6 +1666,7 @@ section {
 .contact .php-email-form {
   width: 100%;
   background: #fff;
+  margin-bottom: 20px;
 }
 
 .contact .php-email-form .form-group {
